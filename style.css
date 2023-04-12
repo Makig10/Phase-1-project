@@ -1,11 +1,49 @@
 .container {
     display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    padding: 0px; 
+    background-color: #bcf356; 
+    border: 1px solid #000; 
+    border-radius: 10px; 
+    width: 100%; 
+    margin: 0 auto; 
+    max-width: 100%;
+    height: 100vh;
   }
   
   .box {
-    flex-basis: 20%; /* Each box takes up 20% of the container width */
-    height: 100px; /* Set the height of the boxes as needed */
-    background-color: #f0f0f0; /* Set the background color of the boxes as needed */
-    border: 1px solid #000; /* Add border to the boxes as needed */
-    margin: 10px; /* Add margin around the boxes as needed */
+    flex-basis: 70%;
+    height: 500px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    color: #57df9f;
+    transition: all 0.2s ease-in-out;
+    width: 30%;
+  }
+  
+  .box:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .box::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  #h1 {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    background-color: #57df9f;
   }
