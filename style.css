@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+  }
+  
+  .box {
+    flex-basis: 20%; /* Each box takes up 20% of the container width */
+    height: 100px; /* Set the height of the boxes as needed */
+    background-color: #f0f0f0; /* Set the background color of the boxes as needed */
+    border: 1px solid #000; /* Add border to the boxes as needed */
+    margin: 10px; /* Add margin around the boxes as needed */
+  }
