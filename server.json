@@ -1,0 +1,32 @@
+{
+    "car1": {
+      "name": "Mercedes-benz s550",
+      "price": "8.65 million ksh",
+      "inventory": 10,
+      "description": "This is the Mercedes-benz s550. It has a sleek design and advanced features.Perfect for one who loves to drive in style!"
+    },
+    "car2": {
+      "name": "Nissan GTR",
+      "price": "11 million ksh",
+      "inventory": 5,
+      "description": "VOILA!.The famous Nissan gtr is a guaranteed to satisfy your need for speed!"
+    },
+    "car3": {
+      "name": "Toyota V8",
+      "price": "10 million ksh",
+      "inventory": 8,
+      "description": "The Toyota V8 is a powerful vehicle that can serve you in a variety of ways because of its size."
+    },
+    "car4": {
+      "name": "M1 Abram tank",
+      "price": "900 million ksh",
+      "inventory": 3,
+      "description": "This weapon of mass destruction is sure to keep all your enemies at bay!(Probably kill in the process as well)."
+    },
+    "car5": {
+      "name": "Massey Ferguson 385",
+      "price": "1.85 million ksh",
+      "inventory": 6,
+      "description": "Be smart and make your farming easier with this high-end machine!"
+    }
+  }
